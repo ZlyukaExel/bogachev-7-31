@@ -16,7 +16,7 @@ public class Main {
 
     public static void PrintArrayAndResult(int[] array) {
         PrintArray(array);
-        PrintArray(TheLargestPosledovatelnost(array));
+        PrintArray(TheBiggestPosledovatelnost(array));
         System.out.println();
     }
 
@@ -27,7 +27,7 @@ public class Main {
         System.out.println();
     }
 
-    public static int[] TheLargestPosledovatelnost(int[] array) {
+    public static int[] TheBiggestPosledovatelnost(int[] array) {
         int len = array.length;
 
         int pos = -1;
